@@ -20,6 +20,7 @@ nav {
     padding: 0 50px;
 }
 header nav img {
+    margin-top:5px;
     max-width:200px;
 }
 h1{
@@ -214,7 +215,6 @@ h4 {
 
 }
 .Cartes-container {
-    min-height: 80vh;
     padding: 0 100px;
 	margin-top:50px;
 }
@@ -268,13 +268,19 @@ h4 {
 		margin:25px;
 	}
 	ul li  a {
-    font-size: 13px;
+    font-size: 14px;
     }
     header img{
         width: 200px;
     }
 }
 @media (max-width: 960px) {
+    .ytb-info,
+    .contact,
+    .information,
+    .Cartes-container{
+        padding: 0 50px;
+    }
     nav{
     display:block;
     }
@@ -320,7 +326,8 @@ h4 {
 @media (max-width: 400px) {
     .ytb-info,
     .contact,
-    .information{
+    .information,
+    .Cartes-container{
         padding: 10px;
     }
     .logo-icone{
@@ -330,9 +337,11 @@ h4 {
         font-size: 2.5rem;
         line-height: 50px;
     }
-
-    ul li a {
-        font-size: 14px;
+    ul li {
+		margin:40px 0px;
+	}
+	ul li a {
+        font-size: 16px;
     }
     h2 {
         font-size: 30px;
